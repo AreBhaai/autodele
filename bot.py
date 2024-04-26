@@ -6,7 +6,7 @@ import os
 API_ID       = int(os.environ.get("API_ID", "23642215"))
 API_HASH     = os.environ.get("API_HASH", "7fbd4d621dc44fda39956268bb78f42f")
 BOT_TOKEN    = os.environ.get("BOT_TOKEN", "6728912571:AAFhBuHfBJz7w8nFDPlEPI-t6Sx68Utx2kY")
-SESSION      = os.environ.get("SESSION", "AQFowGcAMkv5NEWXmPPp7dQb9qSb-B6ACbQs5khqrAvA5suyl4BWLeL7jT-V5flL4bR2CP0QhI9w83UjZvgi3nl43g59oCFmfFBrNVdAzsDZKXLouU3216tq5pUL-bW5nz29NiOms19CZQwGE9LH0jYn_T_uirSyAdZmeVriUzKinR6Y2zmU5N4-_yBTJZEvb0aWZqXD0n8FUHGwCGCzdXIR0BKFrts-p67COmrubF-GtXcYDC_I1whyrUzrzgoDIlPLJw5iGrQ9Abr2K7-QlanIYzeg1K_I8WYDU6UuuHJ3vw6-MCdnzSeqdYFWUb2-ouILzLyKez6mXRMp0gAOn92OjmlMEgAAAAGlZupAAA")
+SESSION      = os.environ.get("SESSION", "AQFowGcAT7gSYVtGSBixlUG9gu3QBPM7oBnAGgNahQY20xS2x8nwQEWBAKBjcpHbgtH0D9gOlMlN8DSqBCXcX1I3eVyNhaA0uH8gE7czn4Lpv6sdAEp3abs5ObV7PMitTV6VVnwVxfUubQAD9hzwC7kZur6CyBmk9kyBt484XzHifLC7SPqHdn_kdJRNeRwy-C5YMbschQDqxbl2TJ7fE2JCw7x-hf-2iZrcxmCBEfn7H7bUzBXrVOvBSHyoAmG_AmoTuWYkftjSROEwvcyi6eNd95WVtc8cb1KNRNnhI6w9rtXaYzbkt-f-0rSem4tGdL4uRGHuLAz05tvnHtaz8o8MD5k7XAAAAAGlZupAAA")
 TIME         = int(os.environ.get("TIME", 5))
 GROUPS       = [int(grp) for grp in os.environ.get("GROUPS", "-1002130385569 -1001860587879 -1001998223606 -1001731538618 -1002125318782 -1002124016839 -1001829721717 -1002118247955").split()]
 ADMINS       = [int(usr) for usr in os.environ.get("ADMINS", "6446790411").split()]
