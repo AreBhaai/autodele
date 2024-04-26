@@ -11,7 +11,7 @@ TIME         = int(os.environ.get("TIME", 1799))
 GROUPS       = [int(grp) for grp in os.environ.get("GROUPS", "-1002130385569 -1001860587879 -1001998223606 -1001731538618 -1002125318782 -1002124016839 -1001829721717 -1002118247955").split()]
 ADMINS       = [int(usr) for usr in os.environ.get("ADMINS", "6446790411").split()]
 
-START_MSG = "<b>Hᴇʟʟᴏ {}\n\nI ᴏɴʟʏ sᴜᴘᴘᴏʀᴛ ᴛʜᴇ</b> <a href='http://t.me/Cinimalokham'><b>Cɪɴɪᴍᴀʟᴏᴋʜᴀᴍ</b></a> <b>ɢʀᴏᴜᴘ\n\nI ᴅᴏ ɢʀᴏᴜᴘ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴄʟᴇᴀɴɪɴɢ ᴇᴠᴇʀʏ 30 ᴍɪɴᴜᴛᴇs</b>"
+START_MSG = "<b>സിനിമയാണെങ്കിൽ ഇവിടെ ചോദിക്കല്ലേ. ഗ്രൂപ്പിൽ ചോദിക്ക് ഒക്കെ ബൈ \n\nGroup link https://t.me/+IJh-LnhpCUQwMjE1 https://t.me/+IJh-LnhpCUQwMjE1 https://t.me/+IJh-LnhpCUQwMjE1</b>"
 
 
 User = Client(name="user-account",
