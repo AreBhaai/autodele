@@ -1,6 +1,7 @@
 import asyncio
 from os import environ
 from pyrogram import Client, filters, idle
+import os
 
 API_ID       = int(os.environ.get("API_ID", "23642215"))
 API_HASH     = os.environ.get("API_HASH", "7fbd4d621dc44fda39956268bb78f42f")
